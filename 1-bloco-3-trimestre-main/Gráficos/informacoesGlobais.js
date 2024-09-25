@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span> ${pessoasMundo} bilhões </span> de pessoas e que aproximadamente <span> ${pessoasConectadas} bilhões </span> estão conectadas em alguma rede social e passam em média <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
+    paragrafo.innerHTML = `O câncer de mama é o tipo de câncer mais comum entre as mulheres no Brasil e no mundo. Ao decorrer dos anos os casos vem aumentando, por isso, é de extrema importância fazer os exames preventivos.`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
